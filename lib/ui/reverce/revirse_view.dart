@@ -42,8 +42,11 @@ class _RevierseViewState extends State<RevierseView> {
             ),
             MaterialButton(
                 onPressed: () {
+                  setState(() {
+
+                  });
                   _reveerse = reverseString(controller.text);
-                  print(_reveerse);
+                  // print(_reveerse);
                 },
                 child: Text("Save"))
           ],
